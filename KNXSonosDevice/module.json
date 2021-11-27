@@ -1,0 +1,13 @@
+{
+	"id": "{8BAE4D82-8FC0-DCFA-0817-D453C4071CDD}",
+	"name": "KNX Sonos Device",
+	"type": 3,
+	"vendor": "KNX Sonos",
+	"aliases": 
+	[
+	],
+	"parentRequirements": ["{42DFD4E4-5831-4A27-91B9-6FF1B2960260}"],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "KNXSNS"
+}

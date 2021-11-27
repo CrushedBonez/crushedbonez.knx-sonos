@@ -1,0 +1,355 @@
+{
+  "elements":
+  [
+    {
+        "type": "Label",
+        "caption": "Sonos"
+    },
+	{
+        "type": "RowLayout",
+        "items": [
+            {
+                "type": "Label",
+                "label": "Sonos-Player",
+                "width": "300px"
+            },
+            {
+                "type": "SelectInstance",
+                "name": "SonosInstance",
+                "caption": "Sonos Player Instanz",
+                "width": "525px",
+                "validModules": ["{52F6586D-A1C7-AAC6-309B-E12A70F6EEF6}"]
+            }
+        ]
+    },
+    {
+        "type": "Label",
+        "caption": "KNX Gruppenadressen"
+    },
+    {
+        "type": "RowLayout",
+        "items": [
+            {
+                "type": "Label",
+                "label": "Play/Pause (DPT 1.010)",
+                "width": "300px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Play_Pause1",
+                "caption": "Hauptgruppe",
+                "minimum": 0,
+                "maximum": 13,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Play_Pause2",
+                "caption": "Mittelgruppe",
+                "minimum": 0,
+                "maximum": 7,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Play_Pause3",
+                "caption": "Untergruppe",
+                "minimum": 0,
+                "maximum": 255,
+                "width": "75px"
+            },
+            {
+                "type": "Label",
+                "label": "Status Play/Pause (DPT 1.010)",
+                "width": "300px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Status_Play_Pause1",
+                "caption": "Hauptgruppe",
+                "minimum": 0,
+                "maximum": 13,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Status_Play_Pause2",
+                "caption": "Mittelgruppe",
+                "minimum": 0,
+                "maximum": 7,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Status_Play_Pause3",
+                "caption": "Untergruppe",
+                "minimum": 0,
+                "maximum": 255,
+                "width": "75px"
+            }
+        ]
+    },
+    {
+        "type": "RowLayout",
+        "items": [
+            {
+                "type": "Label",
+                "label": "Stop (DPT 1.001)",
+                "width": "300px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Stop1",
+                "caption": "Hauptgruppe",
+                "minimum": 0,
+                "maximum": 13,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Stop2",
+                "caption": "Mittelgruppe",
+                "minimum": 0,
+                "maximum": 7,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Stop3",
+                "caption": "Untergruppe",
+                "minimum": 0,
+                "maximum": 255,
+                "width": "75px"
+            },
+            {
+                "type": "Label",
+                "label": "Status Stop (DPT 1.001)",
+                "width": "300px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Status_Stop1",
+                "caption": "Hauptgruppe",
+                "minimum": 0,
+                "maximum": 13,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Status_Stop2",
+                "caption": "Mittelgruppe",
+                "minimum": 0,
+                "maximum": 7,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Status_Stop3",
+                "caption": "Untergruppe",
+                "minimum": 0,
+                "maximum": 255,
+                "width": "75px"
+            }
+        ]
+    },
+    {
+        "type": "RowLayout",
+        "items": [
+            {
+                "type": "Label",
+                "label": "Volume (DPT 1.008)",
+                "width": "300px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Volume1",
+                "caption": "Hauptgruppe",
+                "minimum": 0,
+                "maximum": 13,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Volume2",
+                "caption": "Mittelgruppe",
+                "minimum": 0,
+                "maximum": 7,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Volume3",
+                "caption": "Untergruppe",
+                "minimum": 0,
+                "maximum": 255,
+                "width": "75px"
+            },
+            {
+                "type": "Label",
+                "label": "Status Volume (DPT 5.001)",
+                "width": "300px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Status_Volume1",
+                "caption": "Hauptgruppe",
+                "minimum": 0,
+                "maximum": 13,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Status_Volume2",
+                "caption": "Mittelgruppe",
+                "minimum": 0,
+                "maximum": 7,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Status_Volume3",
+                "caption": "Untergruppe",
+                "minimum": 0,
+                "maximum": 255,
+                "width": "75px"
+            }
+        ]
+    },
+    {
+        "type": "RowLayout",
+        "items": [
+            {
+                "type": "Label",
+                "label": "Prev/Next (DPT 1.008)",
+                "width": "300px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Prev_Next1",
+                "caption": "Hauptgruppe",
+                "minimum": 0,
+                "maximum": 13,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Prev_Next2",
+                "caption": "Mittelgruppe",
+                "minimum": 0,
+                "maximum": 7,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Prev_Next3",
+                "caption": "Untergruppe",
+                "minimum": 0,
+                "maximum": 255,
+                "width": "75px"
+            }
+        ]
+    },
+    {
+        "type": "RowLayout",
+        "items": [
+            {
+                "type": "Label",
+                "label": "Favoriten (DPT ?.???)",
+                "width": "300px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Favorites1",
+                "caption": "Hauptgruppe",
+                "minimum": 0,
+                "maximum": 13,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Favorites2",
+                "caption": "Mittelgruppe",
+                "minimum": 0,
+                "maximum": 7,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Favorites3",
+                "caption": "Untergruppe",
+                "minimum": 0,
+                "maximum": 255,
+                "width": "75px"
+            }
+        ]
+    },
+    {
+        "type": "RowLayout",
+        "items": [
+            {
+                "type": "Label",
+                "label": "Interpret (DPT 16.001)",
+                "width": "300px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Artist1",
+                "caption": "Hauptgruppe",
+                "minimum": 0,
+                "maximum": 13,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Artist2",
+                "caption": "Mittelgruppe",
+                "minimum": 0,
+                "maximum": 7,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Artist3",
+                "caption": "Untergruppe",
+                "minimum": 0,
+                "maximum": 255,
+                "width": "75px"
+            }
+        ]
+    },
+    {
+        "type": "RowLayout",
+        "items": [
+            {
+                "type": "Label",
+                "label": "Titel/Sender (DPT 16.001)",
+                "width": "300px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Title1",
+                "caption": "Hauptgruppe",
+                "minimum": 0,
+                "maximum": 13,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Title2",
+                "caption": "Mittelgruppe",
+                "minimum": 0,
+                "maximum": 7,
+                "width": "75px"
+            },
+            {
+                "type": "NumberSpinner",
+                "name": "GA_Title3",
+                "caption": "Untergruppe",
+                "minimum": 0,
+                "maximum": 255,
+                "width": "75px"
+            }
+        ]
+    }
+  ]
+}
